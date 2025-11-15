@@ -4,8 +4,10 @@ main = "./_worker.js"
 compatibility_date = "2025-11-15"
 
 workers_dev = false
+
 [build]
-command = "true"
+command = "npm run build"
+
 [vars]
 BOT_TOKEN_ENV = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11" 
 #Telegram Bot Token
