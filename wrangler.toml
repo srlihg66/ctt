@@ -1,0 +1,19 @@
+# Top-level configuration
+name = "CFTeleTrans"
+main = "./_worker.js"
+compatibility_date = "2025-11-15"
+
+workers_dev = false
+
+[vars]
+BOT_TOKEN_ENV = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11" 
+#Telegram Bot Token
+GROUP_ID_ENV = "-100123456789"
+
+#后台群组的Chat ID
+MAX_MESSAGES_PER_MINUTE_ENV = "40"
+
+#消息频率限制 每分钟
+[[d1_databases]]
+binding = "D1" 
+database_name = "cfteletrans-db"
