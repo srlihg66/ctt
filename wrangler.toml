@@ -2,7 +2,7 @@
 name = "cfteletrans"
 main = "./_worker.js"
 compatibility_date = "2025-11-15"
-
+no_bundle = true
 workers_dev = false
 
 [vars]
